@@ -1,1 +1,0 @@
-# AgroUnify-Smart-Farming-and-Agricultural-Platform-
