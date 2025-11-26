@@ -69,7 +69,7 @@ A comprehensive AI-powered agricultural platform designed to empower farmers wit
                        │ (REST API)
 ┌──────────────────────▼──────────────────────────────────────┐
 │                 BACKEND (Node.js/Express)                   │
-│  ├─ Authentication & Authorization (JWT)                   │
+│  ├─ Authentication & Authorization (JWT)                    │
 │  ├─ Database Integration (MongoDB)                          │
 │  ├─ File Upload & Caching (Redis)                           │
 │  └─ External API Integration                                │
