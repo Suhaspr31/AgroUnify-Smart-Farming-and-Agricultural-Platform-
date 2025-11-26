@@ -1,0 +1,95 @@
+.insurance-list-page {
+  padding: 2rem 0;
+  min-height: calc(100vh - 200px);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #7f8c8d;
+}
+
+.policies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.policy-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.policy-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.status-badge {
+  padding: 0.375rem 1.25rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-badge.active {
+  background: #2ecc71;
+}
+
+.status-badge.expired {
+  background: #e74c3c;
+}
+
+.policy-info h3 {
+  font-size: 1.125rem;
+  color: #2c3e50;
+  margin-bottom: 0.25rem;
+}
+
+.policy-details {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  color: #7f8c8d;
+}
+
+.value {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.policy-actions {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}

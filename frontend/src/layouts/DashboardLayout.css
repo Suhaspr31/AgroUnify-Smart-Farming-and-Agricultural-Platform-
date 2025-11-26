@@ -1,0 +1,142 @@
+/* Dashboard Layout Root */
+.dashboard-root {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding-top: 60px; /* Navbar height */
+}
+
+
+.dashboard-layout {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+/* Container for Sidebar + Content */
+.dashboard-container {
+  display: flex;
+  padding-top: 60px; /* Height of navbar */
+  min-height: calc(100vh - 60px);
+}
+
+/* Sidebar Styles */
+.dashboard-container .sidebar {
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  height: calc(100vh - 60px);
+  background: #2c3e50;
+  color: white;
+  overflow-y: auto;
+  z-index: 50;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dashboard-container .sidebar:hover,
+.dashboard-container .sidebar.open {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Hover trigger area */
+.hover-trigger {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 20px;
+  height: calc(100vh - 60px);
+  background: transparent;
+  z-index: 40;
+}
+
+.hover-trigger:hover + .dashboard-container .sidebar,
+.dashboard-container .sidebar.open {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hover-trigger:hover + .dashboard-container .main-content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
+
+/* Main Content Area */
+.dashboard-container .main-content {
+  flex: 1;
+  margin-left: 0;
+  padding: 0;
+  background: #f5f7fa;
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  transition: margin-left 0.3s ease;
+}
+
+.dashboard-main {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: #f5f7fa;
+  min-height: calc(100vh - 60px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .dashboard-container::before {
+    display: none;
+  }
+
+  .dashboard-container .sidebar {
+    transform: translateX(-100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .dashboard-container .sidebar:hover,
+  .dashboard-container .sidebar.open {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .dashboard-container .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .dashboard-container .sidebar:hover ~ .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .dashboard-main {
+    padding: 20px;
+    height: 100%;
+  }
+}
+
+/* Scrollbar Styling for Sidebar */
+.dashboard-container .sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.dashboard-container .sidebar::-webkit-scrollbar-track {
+  background: #34495e;
+}
+
+.dashboard-container .sidebar::-webkit-scrollbar-thumb {
+  background: #2ecc71;
+  border-radius: 3px;
+}
+
+.dashboard-container .sidebar::-webkit-scrollbar-thumb:hover {
+  background: #27ae60;
+}
+

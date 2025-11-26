@@ -1,0 +1,280 @@
+.order-detail-page {
+  padding: 2rem 0;
+  min-height: calc(100vh - 200px);
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2ecc71;
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.back-link:hover {
+  color: #27ae60;
+}
+
+.order-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.order-detail-header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.order-detail-header p {
+  color: #7f8c8d;
+}
+
+.order-status-badge {
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+}
+
+.order-status-badge.delivered {
+  background: #2ecc71;
+}
+
+.order-status-badge.shipped {
+  background: #3498db;
+}
+
+.order-status-badge.processing {
+  background: #f39c12;
+}
+
+.order-status-badge.pending {
+  background: #95a5a6;
+}
+
+.order-status-badge.cancelled {
+  background: #e74c3c;
+}
+
+.order-content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.order-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.order-section.full-width {
+  grid-column: 1 / -1;
+}
+
+.order-section h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.order-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.order-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  font-size: 1.125rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.item-quantity {
+  color: #7f8c8d;
+  font-size: 0.875rem;
+}
+
+.item-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2ecc71;
+}
+
+.order-summary {
+  padding-top: 1.5rem;
+  border-top: 2px solid #e0e0e0;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  color: #2c3e50;
+}
+
+.summary-row.total {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: 2px solid #e0e0e0;
+}
+
+.address-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.address-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.address-item svg {
+  font-size: 1.5rem;
+  color: #2ecc71;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.address-item strong {
+  display: block;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.address-item p {
+  color: #7f8c8d;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.tracking-id {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.tracking-id svg {
+  color: #2ecc71;
+  font-size: 1.25rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.625rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e0e0e0;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -1.375rem;
+  top: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  color: #e0e0e0;
+}
+
+.timeline-item.completed .timeline-marker {
+  background: #2ecc71;
+  border-color: #2ecc71;
+  color: white;
+}
+
+.timeline-content h4 {
+  font-size: 1.125rem;
+  color: #2c3e50;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-content p {
+  color: #7f8c8d;
+  font-size: 0.875rem;
+}
+
+.timeline-item.completed .timeline-content h4 {
+  color: #2ecc71;
+}
+
+@media (max-width: 768px) {
+  .order-detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .order-content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .order-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .item-details {
+    width: 100%;
+  }
+}

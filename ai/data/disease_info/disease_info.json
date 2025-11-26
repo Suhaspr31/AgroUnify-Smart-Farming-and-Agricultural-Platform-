@@ -1,0 +1,179 @@
+{
+  "tomato_late_blight": {
+    "scientific_name": "Phytophthora infestans",
+    "common_name": "Tomato Late Blight",
+    "description": "A devastating disease affecting tomatoes and potatoes, causing dark, water-soaked lesions on leaves, stems, and fruits.",
+    "symptoms": [
+      "Dark, water-soaked spots on leaves",
+      "White, moldy growth on undersides of leaves in humid conditions",
+      "Brown lesions on stems",
+      "Fruit rot with brown, leathery patches"
+    ],
+    "severity_levels": {
+      "mild": "Few scattered lesions (<10% leaf area affected)",
+      "moderate": "Multiple lesions, 10-30% leaf area affected",
+      "severe": ">30% leaf area affected, significant fruit damage"
+    },
+    "treatment": {
+      "immediate": [
+        "Remove infected plant material immediately",
+        "Improve air circulation around plants",
+        "Reduce humidity levels"
+      ],
+      "chemical": [
+        {
+          "name": "Copper Fungicide",
+          "dosage": "2-3 ml per liter of water",
+          "application": "Spray every 7-10 days",
+          "timing": "Early morning or evening"
+        },
+        {
+          "name": "Metalaxyl + Mancozeb",
+          "dosage": "2 grams per liter",
+          "application": "Spray every 10-14 days",
+          "timing": "Preventive application"
+        }
+      ],
+      "organic": [
+        {
+          "name": "Neem Oil",
+          "dosage": "5 ml per liter water",
+          "application": "Spray weekly"
+        },
+        {
+          "name": "Baking Soda Solution",
+          "dosage": "1 tablespoon per liter water",
+          "application": "Spray bi-weekly"
+        }
+      ]
+    },
+    "prevention": [
+      "Plant resistant varieties",
+      "Ensure proper spacing between plants",
+      "Avoid overhead watering",
+      "Crop rotation with non-host plants",
+      "Remove plant debris"
+    ],
+    "affected_crops": [
+      "Tomato",
+      "Potato"
+    ],
+    "optimal_conditions": {
+      "temperature": "15-25\u00b0C",
+      "humidity": ">90%",
+      "moisture": "High leaf wetness"
+    }
+  },
+  "apple_scab": {
+    "scientific_name": "Venturia inaequalis",
+    "common_name": "Apple Scab",
+    "description": "A fungal disease affecting apples and crabapples, causing dark, scabby lesions on leaves and fruits.",
+    "symptoms": [
+      "Olive-green to brown spots on leaves",
+      "Dark, corky scabs on fruit surface",
+      "Premature leaf drop",
+      "Reduced fruit quality"
+    ],
+    "severity_levels": {
+      "mild": "Few spots on leaves, minimal fruit damage",
+      "moderate": "Moderate defoliation, 20-40% fruit affected",
+      "severe": "Severe defoliation, >60% fruit damage"
+    },
+    "treatment": {
+      "immediate": [
+        "Remove fallen leaves and infected debris",
+        "Prune for better air circulation"
+      ],
+      "chemical": [
+        {
+          "name": "Propiconazole",
+          "dosage": "1 ml per liter water",
+          "application": "Spray every 14 days during growing season"
+        },
+        {
+          "name": "Captan",
+          "dosage": "2.5 grams per liter",
+          "application": "Weekly sprays during wet weather"
+        }
+      ],
+      "organic": [
+        {
+          "name": "Lime Sulfur",
+          "dosage": "15 ml per liter water",
+          "application": "Dormant season spray"
+        }
+      ]
+    },
+    "prevention": [
+      "Plant scab-resistant varieties",
+      "Rake and destroy fallen leaves",
+      "Prune for air circulation",
+      "Avoid overhead irrigation"
+    ],
+    "affected_crops": [
+      "Apple",
+      "Crabapple"
+    ],
+    "optimal_conditions": {
+      "temperature": "16-24\u00b0C",
+      "humidity": ">95%",
+      "moisture": "9+ hours leaf wetness"
+    }
+  },
+  "corn_rust": {
+    "scientific_name": "Puccinia sorghi",
+    "common_name": "Common Corn Rust",
+    "description": "A fungal disease causing rust-colored pustules on corn leaves, reducing photosynthesis and yield.",
+    "symptoms": [
+      "Small, reddish-brown pustules on leaves",
+      "Pustules primarily on upper leaf surface",
+      "Yellow halos around pustules",
+      "Premature leaf death in severe cases"
+    ],
+    "severity_levels": {
+      "mild": "Few pustules, <5% leaf area affected",
+      "moderate": "Moderate pustule density, 5-15% leaf area",
+      "severe": ">15% leaf area affected, significant yield loss"
+    },
+    "treatment": {
+      "immediate": [
+        "Monitor weather conditions",
+        "Remove severely infected leaves if practical"
+      ],
+      "chemical": [
+        {
+          "name": "Propiconazole",
+          "dosage": "0.5 ml per liter water",
+          "application": "Spray when first pustules appear"
+        },
+        {
+          "name": "Azoxystrobin",
+          "dosage": "1 ml per liter water",
+          "application": "Preventive spray during tasseling"
+        }
+      ],
+      "organic": [
+        {
+          "name": "Trichoderma harzianum",
+          "dosage": "5 grams per liter",
+          "application": "Soil and foliar application"
+        }
+      ]
+    },
+    "prevention": [
+      "Plant resistant hybrids",
+      "Avoid dense planting",
+      "Proper field sanitation",
+      "Timely harvest"
+    ],
+    "affected_crops": [
+      "Corn",
+      "Maize"
+    ],
+    "optimal_conditions": {
+      "temperature": "16-23\u00b0C",
+      "humidity": ">95%",
+      "moisture": "6+ hours dew formation"
+    }
+  }
+}

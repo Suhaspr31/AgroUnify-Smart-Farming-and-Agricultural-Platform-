@@ -1,0 +1,85 @@
+.market-analysis {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.market-analysis h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.analysis-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.analysis-item {
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.analysis-header h4 {
+  font-size: 1.125rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.trend-icon {
+  font-size: 1.5rem;
+}
+
+.trend-icon.up {
+  color: #2ecc71;
+}
+
+.trend-icon.down {
+  color: #e74c3c;
+}
+
+.trend-icon.neutral {
+  color: #95a5a6;
+}
+
+.analysis-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  color: #2c3e50;
+}
+
+.detail-row span:first-child {
+  color: #7f8c8d;
+  font-size: 0.875rem;
+}
+
+.change.up {
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+.change.down {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.change.neutral {
+  color: #95a5a6;
+  font-weight: 600;
+}

@@ -1,0 +1,76 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "crops": "Crops",
+    "farms": "My Farms",
+    "marketplace": "Marketplace",
+    "weather": "Weather",
+    "prices": "Market Prices",
+    "orders": "Orders",
+    "profile": "Profile"
+  },
+  "auth": {
+    "login_title": "Login to Your Account",
+    "register_title": "Create Your Account",
+    "email": "Email Address",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "forgot_password": "Forgot Password?",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?",
+    "sign_up": "Sign up",
+    "sign_in": "Sign in"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "total_farms": "Total Farms",
+    "active_crops": "Active Crops",
+    "monthly_revenue": "Monthly Revenue",
+    "pending_orders": "Pending Orders"
+  },
+  "crops": {
+    "title": "Crop Varieties",
+    "add_crop": "Add New Crop",
+    "search_placeholder": "Search crops...",
+    "category": "Category",
+    "season": "Season",
+    "price": "Price",
+    "growth_period": "Growth Period"
+  },
+  "marketplace": {
+    "title": "Marketplace",
+    "add_to_cart": "Add to Cart",
+    "buy_now": "Buy Now",
+    "view_details": "View Details",
+    "sold_by": "Sold by",
+    "in_stock": "In Stock",
+    "out_of_stock": "Out of Stock"
+  },
+  "weather": {
+    "title": "Weather Information",
+    "current": "Current Weather",
+    "forecast": "Forecast",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "wind_speed": "Wind Speed",
+    "rainfall": "Rainfall"
+  }
+}

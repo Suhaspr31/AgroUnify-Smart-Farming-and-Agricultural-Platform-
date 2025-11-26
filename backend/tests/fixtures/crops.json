@@ -1,0 +1,106 @@
+[
+  {
+    "_id": "60f1b2a3c4d5e6f7a8b9c0e1",
+    "name": "Winter Wheat",
+    "variety": "HD-2967",
+    "farmer": "60f1b2a3c4d5e6f7a8b9c0d1",
+    "plantingDate": "2023-11-15T00:00:00.000Z",
+    "expectedHarvestDate": "2024-04-15T00:00:00.000Z",
+    "fieldDetails": {
+      "area": 2.5,
+      "location": {
+        "address": "Field No. 1, Green Valley Farm",
+        "city": "Meerut",
+        "state": "Uttar Pradesh",
+        "coordinates": {
+          "lat": 28.9845,
+          "lng": 77.7064
+        }
+      },
+      "soilType": "loamy",
+      "irrigationType": "drip"
+    },
+    "currentStage": "vegetative",
+    "healthStatus": "healthy",
+    "images": [
+      {
+        "url": "/uploads/crops/wheat-field-1.jpg",
+        "caption": "Wheat field at 30 days",
+        "uploadedAt": "2023-12-15T10:00:00.000Z"
+      }
+    ],
+    "treatments": [
+      {
+        "type": "fertilizer",
+        "product": "NPK 12:32:16",
+        "quantity": "50 kg",
+        "applicationDate": "2023-12-01T00:00:00.000Z",
+        "cost": 1500,
+        "notes": "First fertilizer application"
+      }
+    ],
+    "yield": {
+      "expected": 125,
+      "unit": "quintal"
+    },
+    "expenses": {
+      "seeds": 2000,
+      "fertilizers": 3000,
+      "pesticides": 1000,
+      "labor": 5000,
+      "irrigation": 2000,
+      "other": 1000,
+      "total": 14000
+    },
+    "isActive": true,
+    "createdAt": "2023-11-15T10:00:00.000Z",
+    "updatedAt": "2023-12-15T10:00:00.000Z"
+  },
+  {
+    "_id": "60f1b2a3c4d5e6f7a8b9c0e2",
+    "name": "Basmati Rice",
+    "variety": "Pusa Basmati 1121",
+    "farmer": "60f1b2a3c4d5e6f7a8b9c0d1",
+    "plantingDate": "2023-06-15T00:00:00.000Z",
+    "expectedHarvestDate": "2023-10-15T00:00:00.000Z",
+    "actualHarvestDate": "2023-10-20T00:00:00.000Z",
+    "fieldDetails": {
+      "area": 3.0,
+      "location": {
+        "address": "Field No. 2, Green Valley Farm",
+        "city": "Meerut",
+        "state": "Uttar Pradesh",
+        "coordinates": {
+          "lat": 28.9850,
+          "lng": 77.7070
+        }
+      },
+      "soilType": "clay",
+      "irrigationType": "flood"
+    },
+    "currentStage": "harvested",
+    "healthStatus": "healthy",
+    "yield": {
+      "expected": 150,
+      "actual": 145,
+      "unit": "quintal"
+    },
+    "expenses": {
+      "seeds": 3000,
+      "fertilizers": 4000,
+      "pesticides": 1500,
+      "labor": 8000,
+      "irrigation": 3000,
+      "other": 1500,
+      "total": 21000
+    },
+    "revenue": {
+      "totalSale": 290000,
+      "pricePerUnit": 2000,
+      "profit": 269000
+    },
+    "isActive": true,
+    "createdAt": "2023-06-15T10:00:00.000Z",
+    "updatedAt": "2023-10-20T10:00:00.000Z"
+  }
+]

@@ -1,0 +1,246 @@
+.profile-page {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-bottom: 2rem;
+}
+
+.profile-avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-avatar {
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(135deg, #2ecc71, #27ae60 70%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 3.5rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(46,204,113,0.07);
+  border: 3px solid #fff;
+}
+
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-avatar-edit {
+  background: #fff;
+  color: #2ecc71;
+  border: none;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 6px rgba(46,204,113,.08);
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.2s;
+}
+
+.profile-avatar-edit:hover {
+  background: #e8f5e9;
+}
+
+.profile-avatar-label {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 6px;
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 180px;
+}
+
+.profile-info h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+}
+
+.profile-role {
+  color: #2ecc71;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 1.1rem;
+}
+
+.profile-action-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  padding: 0.65rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.btn-edit {
+  background: #f8f9fa;
+  color: #2c3e50;
+  border: 1px solid #e8f5e9;
+}
+
+.btn-edit:hover {
+  background: #e8f5e9;
+  color: #257e43;
+}
+
+.btn-save {
+  background: linear-gradient(135deg,#27ae60,#218c54 80%);
+  color: #fff;
+  border: none;
+}
+.btn-save:hover {
+  box-shadow: 0 2px 6px rgba(46,204,113,0.09);
+}
+.btn-cancel {
+  background: #fff3e0;
+  color: #e67e22;
+  border: none;
+}
+.btn-cancel:hover {
+  background: #ffe0b2;
+}
+.btn-logout {
+  background: #e74c3c;
+  color: #fff;
+}
+.btn-logout:hover {
+  background: #c0392b;
+}
+
+.profile-details {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.detail-item svg {
+  font-size: 1.5rem;
+  color: #2ecc71;
+}
+
+.detail-label {
+  color: #7f8c8d;
+  font-size: 0.87rem;
+  margin-bottom: 0.11rem;
+  display: block;
+}
+
+.detail-value {
+  color: #2c3e50;
+  font-weight: 600;
+  display: block;
+  font-size: 1.03rem;
+}
+
+.profile-form {
+  background: white;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.profile-form .form-group {
+  margin-bottom: 1.3rem;
+}
+.profile-form label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+.profile-form .form-input {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #f8f9fa;
+  border-radius: 7px;
+  padding: 0.85rem 1rem;
+  margin-top: 0.2rem;
+}
+.profile-form .form-input input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 1rem;
+  color: #222;
+}
+.profile-form-actions {
+  text-align: right;
+}
+
+@media (max-width: 740px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.25rem;
+    padding: 1.4rem 0.8rem;
+  }
+  .profile-info h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-details,
+  .profile-header,
+  .profile-form {
+    padding: 0.9rem 0.3rem;
+  }
+}

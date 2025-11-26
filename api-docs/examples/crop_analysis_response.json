@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "analysis_id": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d",
+  "timestamp": "2025-10-19T10:30:00Z",
+  "image_url": "https://example.com/uploads/crop_image_20251019_102955.jpg",
+  "results": [
+    {
+      "condition": "Tomato Late Blight",
+      "confidence": 0.92,
+      "severity": "High",
+      "recommendations": [
+        "Apply a fungicide containing mancozeb or chlorothalonil.",
+        "Remove and destroy infected plant parts.",
+        "Ensure proper spacing for air circulation."
+      ],
+      "knowledge_base_link": "/disease-database/tomato-late-blight"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Green Valley Farm",
+  "location": {
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "address": "123 Farm Road, Fresno, CA 93721"
+  },
+  "totalArea": 150.5,
+  "irrigationType": "Drip Irrigation",
+  "soilType": "Loam"
+}

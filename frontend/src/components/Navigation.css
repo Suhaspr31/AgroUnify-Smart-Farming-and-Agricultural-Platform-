@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #2ecc71;
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #2ecc71;
+  transition: width 0.3s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

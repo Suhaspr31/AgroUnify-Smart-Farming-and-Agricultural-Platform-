@@ -1,0 +1,139 @@
+[
+  {
+    "_id": "60f1b2a3c4d5e6f7a8b9c0f1",
+    "name": "Premium Wheat Seeds - HD 2967",
+    "description": "High-quality wheat seeds with 95% germination rate. Suitable for winter sowing in North Indian conditions.",
+    "category": "seeds",
+    "subcategory": "wheat seeds",
+    "seller": "60f1b2a3c4d5e6f7a8b9c0d1",
+    "price": {
+      "amount": 45,
+      "unit": "per_kg",
+      "negotiable": true
+    },
+    "quantity": {
+      "available": 500,
+      "unit": "kg",
+      "minimum_order": 10
+    },
+    "images": [
+      {
+        "url": "/uploads/products/wheat-seeds-1.jpg",
+        "alt": "Premium wheat seeds",
+        "isPrimary": true
+      }
+    ],
+    "specifications": {
+      "brand": "Green Valley Seeds",
+      "variety": "HD-2967",
+      "weight": "1 kg per packet",
+      "origin": "Punjab",
+      "certification": ["ISI Mark", "Organic Certified"],
+      "germinationRate": "95%",
+      "purity": "98%"
+    },
+    "location": {
+      "address": "Green Valley Farm, Village Rampur",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "pincode": "250001",
+      "coordinates": {
+        "lat": 28.9845,
+        "lng": 77.7064
+      }
+    },
+    "condition": "new",
+    "availability": {
+      "status": "available",
+      "seasonal": true,
+      "availableFrom": "2023-10-01T00:00:00.000Z",
+      "availableTo": "2024-01-31T00:00:00.000Z"
+    },
+    "delivery": {
+      "available": true,
+      "freeDelivery": false,
+      "deliveryCharge": 50,
+      "estimatedDays": 3,
+      "deliveryRadius": 100
+    },
+    "ratings": {
+      "average": 4.5,
+      "count": 12
+    },
+    "reviews": [
+      {
+        "reviewer": "60f1b2a3c4d5e6f7a8b9c0d2",
+        "rating": 5,
+        "comment": "Excellent quality seeds. Great germination rate!",
+        "date": "2023-11-01T10:00:00.000Z"
+      }
+    ],
+    "tags": ["wheat", "seeds", "winter crop", "high yield", "organic"],
+    "featured": true,
+    "verified": true,
+    "views": 245,
+    "isActive": true,
+    "createdAt": "2023-10-01T10:00:00.000Z",
+    "updatedAt": "2023-11-01T10:00:00.000Z"
+  },
+  {
+    "_id": "60f1b2a3c4d5e6f7a8b9c0f2",
+    "name": "Fresh Organic Tomatoes - Grade A",
+    "description": "Farm fresh organic tomatoes, harvested this morning. Perfect for cooking and salads.",
+    "category": "produce",
+    "subcategory": "vegetables",
+    "seller": "60f1b2a3c4d5e6f7a8b9c0d1",
+    "price": {
+      "amount": 60,
+      "unit": "per_kg",
+      "negotiable": false
+    },
+    "quantity": {
+      "available": 200,
+      "unit": "kg",
+      "minimum_order": 5
+    },
+    "images": [
+      {
+        "url": "/uploads/products/tomatoes-1.jpg",
+        "alt": "Fresh organic tomatoes",
+        "isPrimary": true
+      }
+    ],
+    "specifications": {
+      "variety": "Hybrid",
+      "weight": "Available in 1kg, 5kg packets",
+      "origin": "Meerut, UP",
+      "certification": ["Organic Certified"],
+      "harvestedOn": "2023-12-01T06:00:00.000Z"
+    },
+    "location": {
+      "address": "Green Valley Farm, Village Rampur",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "pincode": "250001"
+    },
+    "condition": "new",
+    "availability": {
+      "status": "available",
+      "seasonal": false
+    },
+    "delivery": {
+      "available": true,
+      "freeDelivery": true,
+      "estimatedDays": 1,
+      "deliveryRadius": 50
+    },
+    "ratings": {
+      "average": 4.8,
+      "count": 25
+    },
+    "tags": ["tomatoes", "vegetables", "fresh", "organic", "grade-a"],
+    "featured": false,
+    "verified": true,
+    "views": 156,
+    "isActive": true,
+    "createdAt": "2023-12-01T10:00:00.000Z",
+    "updatedAt": "2023-12-01T10:00:00.000Z"
+  }
+]

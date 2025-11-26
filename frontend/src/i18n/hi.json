@@ -1,0 +1,76 @@
+{
+  "common": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "login": "लॉगिन",
+    "register": "रजिस्टर",
+    "logout": "लॉगआउट",
+    "submit": "जमा करें",
+    "cancel": "रद्द करें",
+    "save": "सेव करें",
+    "delete": "डिलीट करें",
+    "edit": "एडिट करें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता"
+  },
+  "navigation": {
+    "dashboard": "डैशबोर्ड",
+    "crops": "फसलें",
+    "farms": "मेरे फार्म",
+    "marketplace": "मार्केटप्लेस",
+    "weather": "मौसम",
+    "prices": "बाजार भाव",
+    "orders": "ऑर्डर",
+    "profile": "प्रोफाइल"
+  },
+  "auth": {
+    "login_title": "अपने खाते में लॉगिन करें",
+    "register_title": "अपना खाता बनाएं",
+    "email": "ईमेल पता",
+    "password": "पासवर्ड",
+    "confirm_password": "पासवर्ड की पुष्टि करें",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "no_account": "खाता नहीं है?",
+    "have_account": "पहले से खाता है?",
+    "sign_up": "साइन अप करें",
+    "sign_in": "साइन इन करें"
+  },
+  "dashboard": {
+    "welcome": "स्वागत है",
+    "total_farms": "कुल फार्म",
+    "active_crops": "सक्रिय फसलें",
+    "monthly_revenue": "मासिक आय",
+    "pending_orders": "लंबित ऑर्डर"
+  },
+  "crops": {
+    "title": "फसल की किस्में",
+    "add_crop": "नई फसल जोड़ें",
+    "search_placeholder": "फसल खोजें...",
+    "category": "श्रेणी",
+    "season": "मौसम",
+    "price": "कीमत",
+    "growth_period": "विकास अवधि"
+  },
+  "marketplace": {
+    "title": "मार्केटप्लेस",
+    "add_to_cart": "कार्ट में डालें",
+    "buy_now": "अभी खरीदें",
+    "view_details": "विवरण देखें",
+    "sold_by": "द्वारा बेचा गया",
+    "in_stock": "स्टॉक में",
+    "out_of_stock": "स्टॉक खत्म"
+  },
+  "weather": {
+    "title": "मौसम की जानकारी",
+    "current": "वर्तमान मौसम",
+    "forecast": "पूर्वानुमान",
+    "temperature": "तापमान",
+    "humidity": "नमी",
+    "wind_speed": "हवा की गति",
+    "rainfall": "वर्षा"
+  }
+}

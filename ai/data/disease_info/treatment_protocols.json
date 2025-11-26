@@ -1,0 +1,263 @@
+{
+  "fungicides": {
+    "copper_based": {
+      "active_ingredients": [
+        "copper sulfate",
+        "copper hydroxide",
+        "copper oxychloride"
+      ],
+      "brand_names": [
+        "Kocide",
+        "Champion",
+        "Nordox"
+      ],
+      "mode_of_action": "Multi-site contact fungicide",
+      "diseases_controlled": [
+        "bacterial_spot",
+        "early_blight",
+        "late_blight"
+      ],
+      "application_rate": "1-3 kg/ha",
+      "preharvest_interval": "0-7 days",
+      "resistance_risk": "Low",
+      "cost_per_hectare": "$25-45",
+      "application_instructions": [
+        "Apply as preventive treatment before disease onset",
+        "Ensure complete plant coverage",
+        "Apply during cooler parts of day",
+        "Add spreader-sticker for better adherence"
+      ]
+    },
+    "mancozeb": {
+      "active_ingredients": [
+        "mancozeb"
+      ],
+      "brand_names": [
+        "Dithane M-45",
+        "Indofil M-45",
+        "Manzate"
+      ],
+      "mode_of_action": "Multi-site contact fungicide",
+      "diseases_controlled": [
+        "early_blight",
+        "late_blight"
+      ],
+      "application_rate": "2-3 kg/ha",
+      "preharvest_interval": "7-14 days",
+      "resistance_risk": "Low",
+      "cost_per_hectare": "$30-50",
+      "application_instructions": [
+        "Apply before disease onset or at first symptoms",
+        "Repeat applications every 7-14 days",
+        "Use adequate water volume for coverage",
+        "Do not apply during flowering for bee safety"
+      ]
+    },
+    "azoxystrobin": {
+      "active_ingredients": [
+        "azoxystrobin"
+      ],
+      "brand_names": [
+        "Amistar",
+        "Quadris",
+        "Heritage"
+      ],
+      "mode_of_action": "Strobilurin (QoI) - Systemic",
+      "diseases_controlled": [
+        "powdery_mildew",
+        "early_blight",
+        "late_blight"
+      ],
+      "application_rate": "125-250 g/ha",
+      "preharvest_interval": "3-7 days",
+      "resistance_risk": "High",
+      "cost_per_hectare": "$40-75",
+      "application_instructions": [
+        "Use maximum 2 applications per season",
+        "Rotate with different mode of action",
+        "Apply at disease onset for best results",
+        "Tank mix with protectant fungicide"
+      ]
+    },
+    "propiconazole": {
+      "active_ingredients": [
+        "propiconazole"
+      ],
+      "brand_names": [
+        "Tilt",
+        "Banner",
+        "Orbit"
+      ],
+      "mode_of_action": "Triazole (DMI) - Systemic",
+      "diseases_controlled": [
+        "powdery_mildew",
+        "rust_diseases"
+      ],
+      "application_rate": "125-250 ml/ha",
+      "preharvest_interval": "14-21 days",
+      "resistance_risk": "Medium-High",
+      "cost_per_hectare": "$35-65",
+      "application_instructions": [
+        "Best applied preventively",
+        "Rotate with other fungicide groups",
+        "Avoid consecutive applications",
+        "Apply in early morning or evening"
+      ]
+    }
+  },
+  "bactericides": {
+    "streptomycin": {
+      "active_ingredients": [
+        "streptomycin sulfate"
+      ],
+      "brand_names": [
+        "Agri-Mycin",
+        "Streptocycline"
+      ],
+      "mode_of_action": "Antibiotic - protein synthesis inhibitor",
+      "diseases_controlled": [
+        "bacterial_spot",
+        "bacterial_wilt"
+      ],
+      "application_rate": "100-200 ppm solution",
+      "preharvest_interval": "30 days",
+      "resistance_risk": "High",
+      "cost_per_hectare": "$50-80",
+      "application_instructions": [
+        "Use only when necessary due to resistance issues",
+        "Apply as spray or soil drench",
+        "Rotate with copper-based bactericides",
+        "Follow strict PHI requirements"
+      ]
+    },
+    "copper_hydroxide": {
+      "active_ingredients": [
+        "copper hydroxide"
+      ],
+      "brand_names": [
+        "Kocide",
+        "ChampION"
+      ],
+      "mode_of_action": "Multi-site contact bactericide",
+      "diseases_controlled": [
+        "bacterial_spot",
+        "bacterial_canker"
+      ],
+      "application_rate": "1.5-3 kg/ha",
+      "preharvest_interval": "0-1 day",
+      "resistance_risk": "Low",
+      "cost_per_hectare": "$25-40",
+      "application_instructions": [
+        "Apply preventively before rain events",
+        "Ensure thorough coverage",
+        "Can cause phytotoxicity in high humidity",
+        "Mix with spreader for better adhesion"
+      ]
+    }
+  },
+  "insecticides_for_vectors": {
+    "imidacloprid": {
+      "active_ingredients": [
+        "imidacloprid"
+      ],
+      "brand_names": [
+        "Confidor",
+        "Admire",
+        "Gaucho"
+      ],
+      "mode_of_action": "Neonicotinoid - systemic insecticide",
+      "target_pests": [
+        "aphids",
+        "whiteflies",
+        "thrips"
+      ],
+      "application_rate": "0.3-0.6 L/ha",
+      "preharvest_interval": "7-14 days",
+      "cost_per_hectare": "$30-55",
+      "application_instructions": [
+        "Apply as soil drench or foliar spray",
+        "Effective against virus vectors",
+        "Avoid application during bloom",
+        "Use IPM approach with beneficial insects"
+      ]
+    },
+    "spinosad": {
+      "active_ingredients": [
+        "spinosad"
+      ],
+      "brand_names": [
+        "Success",
+        "Tracer",
+        "Entrust"
+      ],
+      "mode_of_action": "Spinosyn - biological insecticide",
+      "target_pests": [
+        "thrips",
+        "caterpillars",
+        "leafminers"
+      ],
+      "application_rate": "0.15-0.25 L/ha",
+      "preharvest_interval": "1-3 days",
+      "cost_per_hectare": "$40-70",
+      "application_instructions": [
+        "OMRI listed for organic production",
+        "Apply in evening to protect beneficial insects",
+        "Rotate with other insecticides",
+        "Good coverage essential for effectiveness"
+      ]
+    }
+  },
+  "biological_controls": {
+    "bacillus_subtilis": {
+      "active_ingredients": [
+        "Bacillus subtilis strain QST713"
+      ],
+      "brand_names": [
+        "Serenade",
+        "Rhapsody",
+        "Cease"
+      ],
+      "mode_of_action": "Antibiosis and competition",
+      "diseases_controlled": [
+        "powdery_mildew",
+        "botrytis",
+        "bacterial_spot"
+      ],
+      "application_rate": "2-8 kg/ha",
+      "preharvest_interval": "0 days",
+      "resistance_risk": "Very Low",
+      "cost_per_hectare": "$35-60",
+      "application_instructions": [
+        "Apply preventively for best results",
+        "Compatible with most fungicides",
+        "Apply in evening to protect bacteria",
+        "Multiple applications may be needed"
+      ]
+    },
+    "trichoderma_harzianum": {
+      "active_ingredients": [
+        "Trichoderma harzianum"
+      ],
+      "brand_names": [
+        "RootShield",
+        "T-22 Planter Box"
+      ],
+      "mode_of_action": "Competition and mycoparasitism",
+      "diseases_controlled": [
+        "root_rot",
+        "damping_off",
+        "soil_pathogens"
+      ],
+      "application_rate": "1-2 kg/ha",
+      "preharvest_interval": "0 days",
+      "resistance_risk": "Very Low",
+      "cost_per_hectare": "$25-45",
+      "application_instructions": [
+        "Apply as soil drench or seed treatment",
+        "Establish before pathogen arrival",
+        "Avoid use with fungicides",
+        "Store in cool, dry conditions"
+      ]
+    }
+  }
+}

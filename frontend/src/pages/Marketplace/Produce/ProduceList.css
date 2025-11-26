@@ -1,0 +1,86 @@
+.produce-list-page {
+  padding: 2rem 0;
+  min-height: calc(100vh - 200px);
+}
+
+.produce-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.produce-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.status-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.status-badge.available {
+  background: #2ecc71;
+  color: white;
+}
+
+.status-badge.sold {
+  background: #e74c3c;
+  color: white;
+}
+
+.produce-card h3 {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.produce-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  color: #7f8c8d;
+}
+
+.value {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.produce-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.btn-icon {
+  padding: 0.75rem;
+  border: none;
+  background: #e3f2fd;
+  color: #3498db;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon.delete {
+  background: #ffebee;
+  color: #e74c3c;
+}

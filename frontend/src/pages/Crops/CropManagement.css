@@ -1,0 +1,142 @@
+.crop-management-page {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #7f8c8d;
+}
+
+.crops-table-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.crops-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.crops-table thead {
+  background: #f8f9fa;
+}
+
+.crops-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.crops-table td {
+  padding: 1rem;
+  border-top: 1px solid #e0e0e0;
+  color: #2c3e50;
+}
+
+.crop-name {
+  font-weight: 600;
+  color: #2ecc71;
+}
+
+.status-badge,
+.health-badge {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-size: 1.125rem;
+}
+
+.action-btn.view {
+  color: #3498db;
+}
+
+.action-btn.view:hover {
+  background: #ebf5fb;
+}
+
+.action-btn.edit {
+  color: #f39c12;
+}
+
+.action-btn.edit:hover {
+  background: #fef5e7;
+}
+
+.action-btn.delete {
+  color: #e74c3c;
+}
+
+.action-btn.delete:hover {
+  background: #fadbd8;
+}
+
+.empty-state {
+  background: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.empty-state p {
+  color: #7f8c8d;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .crop-management-page {
+    padding: 1rem;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .crops-table-container {
+    overflow-x: auto;
+  }
+
+  .crops-table {
+    min-width: 800px;
+  }
+}
