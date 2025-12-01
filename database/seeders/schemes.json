@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "description": "Direct income support of ₹6,000 per year to farmer families",
+    "category": "income-support",
+    "state": "national",
+    "eligibility": [
+      "Small and marginal farmers with landholding up to 2 hectares",
+      "Farmers who are owners/cultivators/sharecroppers/tenant farmers",
+      "Age between 18-40 years",
+      "Valid Aadhaar number linked with bank account"
+    ],
+    "benefits": [
+      "₹2,000 quarterly installments (total ₹6,000 annually)",
+      "Direct bank transfer to beneficiary account",
+      "No upper limit on number of installments",
+      "Support for 5 years initially"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land documents",
+      "Bank account details",
+      "Recent passport size photograph"
+    ],
+    "applicationProcess": [
+      "Visit nearest CSC center or Agriculture office",
+      "Fill online application form",
+      "Upload required documents",
+      "Verification by local authorities",
+      "Approval and fund transfer"
+    ],
+    "deadline": "Ongoing",
+    "status": "active",
+    "contactInfo": {
+      "helpline": "1800-3000-343",
+      "website": "https://pmkisan.gov.in",
+      "email": "help@pmkisan.gov.in"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "description": "Comprehensive crop insurance scheme",
+    "category": "insurance",
+    "state": "national",
+    "eligibility": [
+      "All farmers growing notified crops",
+      "Both loanee and non-loanee farmers",
+      "Cultivators, sharecroppers, tenant farmers"
+    ],
+    "benefits": [
+      "Coverage against yield loss due to natural calamities",
+      "Protection against prevented sowing/localized calamities",
+      "Post-harvest losses covered",
+      "Mid-season adversity coverage"
+    ],
+    "requiredDocuments": [
+      "Land documents",
+      "Crop sowing certificate",
+      "Bank account details",
+      "Aadhaar Card"
+    ],
+    "applicationProcess": [
+      "Register with nearest bank/insurance company",
+      "Pay premium (75% subsidy for small farmers)",
+      "Crop cutting experiments for loss assessment",
+      "Claim settlement within stipulated time"
+    ],
+    "deadline": "Crop season based",
+    "status": "active",
+    "contactInfo": {
+      "helpline": "1800-11-7717",
+      "website": "https://pmfby.gov.in",
+      "email": "info@pmfby.gov.in"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Soil Health Card Scheme",
+    "description": "Free soil testing and health cards for farmers",
+    "category": "soil-health",
+    "state": "national",
+    "eligibility": [
+      "All farmers"
+    ],
+    "benefits": [
+      "Free soil testing",
+      "Nutrient recommendations",
+      "Soil health cards",
+      "Fertilizer recommendations"
+    ],
+    "requiredDocuments": [
+      "Land documents",
+      "Aadhaar Card"
+    ],
+    "applicationProcess": [
+      "Visit nearest soil testing lab",
+      "Submit soil sample",
+      "Receive soil health card",
+      "Follow recommendations"
+    ],
+    "deadline": "Ongoing",
+    "status": "active",
+    "contactInfo": {
+      "helpline": "1800-11-6666",
+      "website": "https://soilhealth.dac.gov.in",
+      "email": "soilhealth-dac@gov.in"
+    }
+  },
+  {
+    "id": 4,
+    "name": "National Agriculture Market (eNAM)",
+    "description": "Online trading platform for agricultural commodities",
+    "category": "market-linkage",
+    "state": "national",
+    "eligibility": [
+      "Farmers, traders, and commission agents"
+    ],
+    "benefits": [
+      "Better price discovery",
+      "Reduced transaction costs",
+      "Access to national market",
+      "Transparent pricing"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank account details",
+      "Mobile number"
+    ],
+    "applicationProcess": [
+      "Register on eNAM portal",
+      "Create account",
+      "Link bank account",
+      "Start trading"
+    ],
+    "deadline": "Ongoing",
+    "status": "active",
+    "contactInfo": {
+      "helpline": "1800-11-5353",
+      "website": "https://www.enam.gov.in",
+      "email": "support@enam.gov.in"
+    }
+  }
+]

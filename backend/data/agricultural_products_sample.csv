@@ -1,0 +1,51 @@
+id,name,category,subcategory,brand,basePrice,unit,stock,discount,supplierRating,isFeatured,isTrending
+seed_001,Pusa Basmati 1121 Rice Seeds - IARI,seeds,rice_seeds,IARI,850,kg,1500,8,4.8,True,True
+seed_002,HI 1544 (Purna) Wheat Seeds - IARI,seeds,wheat_seeds,IARI,650,kg,2500,5,4.7,True,True
+seed_003,DEKALB 9208 Hybrid Maize Seeds - Bayer,seeds,maize_seeds,Bayer,720,kg,1800,7,4.6,True,True
+seed_004,JS 335 Soybean Seeds - JNKVV,seeds,soybean_seeds,JNKVV,580,kg,3000,6,4.5,True,True
+seed_005,RCH 134 Bt Cotton Hybrid Seeds,seeds,cotton_seeds,Rasi Seeds,920,packet_450g,2000,10,4.7,True,True
+seed_006,Pusa 10216 Chickpea Seeds - IARI,seeds,pulse_seeds,IARI,680,kg,1200,5,4.6,True,False
+seed_007,Swarna Rice Seeds (MTU 7029),seeds,rice_seeds,ICAR-NRRI,520,kg,2200,4,4.5,False,True
+seed_008,JS 95-60 Soybean Seeds - JNKVV,seeds,soybean_seeds,JNKVV,560,kg,1600,5,4.4,False,False
+seed_009,MRC 7918 Bt Cotton Hybrid Seeds,seeds,cotton_seeds,Mahyco,950,packet_450g,1500,8,4.6,True,False
+seed_010,DBW 222 (Karan Narendra) Wheat Seeds - IIWBR,seeds,wheat_seeds,ICAR-IIWBR,620,kg,2000,6,4.5,False,True
+fert_001,DAP (Di-Ammonium Phosphate) - IFFCO,fertilizers,phosphate_fertilizers,IFFCO,750,bag_50kg,5000,3,4.8,True,True
+fert_002,Urea (Carbamide) - National Fertilizers Limited,fertilizers,nitrogen_fertilizers,National Fertilizers Limited,620,bag_50kg,8000,2,4.9,True,True
+fert_003,Potassium Nitrate (KNO3) - Coromandel International,fertilizers,potassium_fertilizers,Coromandel International,1200,kg,2000,5,4.6,False,True
+fert_004,Ammonium Sulphate (AS) - Astro,fertilizers,nitrogen_fertilizers,Astro,680,bag_50kg,3500,4,4.5,True,False
+fert_005,NPK (20:20:20) - Rashtriya Chemical & Fertilizers,fertilizers,npk_fertilizers,Rashtriya Chemical & Fertilizers,900,bag_50kg,4000,6,4.7,True,True
+fert_006,Zinc Sulphate (ZnSO4) - Agro Company,fertilizers,micronutrient_fertilizers,Agro Company,420,kg,1500,5,4.4,False,True
+fert_007,Muriate of Potash (MOP) - KRIBHCO,fertilizers,potassium_fertilizers,KRIBHCO,850,bag_50kg,3000,4,4.6,True,False
+fert_008,Boron (Borax) - Godrej Agrevet,fertilizers,micronutrient_fertilizers,Godrej Agrevet,520,kg,800,6,4.3,False,False
+fert_009,Single Super Phosphate (SSP) - DCM Shriram,fertilizers,phosphate_fertilizers,DCM Shriram,580,bag_50kg,2500,3,4.4,False,False
+fert_010,Neem Cake (Organic) - Kissan Agro,fertilizers,organic_fertilizers,Kissan Agro,450,bag_25kg,1200,8,4.5,True,True
+pest_001,Imidacloprid 17.8% SL - BASF,pesticides,insecticides,BASF,680,litre,800,5,4.7,True,True
+pest_002,Chlorpyrifos 20% EC - Syngenta,pesticides,insecticides,Syngenta,520,litre,1200,4,4.6,True,True
+pest_003,Carbendazim 50% WP - Coromandel International,pesticides,fungicides,Coromandel International,450,kg,600,6,4.5,False,True
+pest_004,Mancozeb 75% WP - Bayer CropScience,pesticides,fungicides,Bayer CropScience,380,kg,900,5,4.6,True,True
+pest_005,Lambda-Cyhalothrin 5% EC - Rallis India,pesticides,insecticides,Rallis India,850,litre,700,7,4.7,True,True
+pest_006,Beauveria Bassiana (Organic) - Biosure,pesticides,bio_pesticides,Biosure,580,gram,400,10,4.3,True,False
+pest_007,Tricyclazole 75% WP - UPL Limited,pesticides,fungicides,UPL Limited,520,kg,500,5,4.4,False,False
+pest_008,Spinosad 45% SC - Godrej Agrevet,pesticides,bio_pesticides,Godrej Agrevet,920,litre,300,8,4.5,True,True
+pest_009,Profenofos 50% EC - Adama,pesticides,insecticides,Adama,480,litre,1000,4,4.4,False,False
+pest_010,Sulfur 80% WP - Sulfex,pesticides,fungicides,Sulfex,220,kg,2000,3,4.3,False,True
+equip_001,TAFE 9055 Tractor - 55 HP Compact Utility,equipment,tractors,TAFE (Tractors and Farm Equipment),650000,unit,45,5,4.7,True,True
+equip_002,Preet 987 Combine Harvester,equipment,harvesters,Preet,1200000,unit,25,8,4.6,True,True
+equip_003,Mahindra 585 DI Tractor - 58 HP,equipment,tractors,Mahindra,720000,unit,60,6,4.8,True,False
+equip_004,John Deere CP690 Combine Harvester,equipment,harvesters,John Deere,1800000,unit,15,10,4.8,True,True
+equip_005,Rotavator (Rotary Tiller) - 6 Feet,equipment,farm_implements,Standard Agricultural,85000,unit,120,4,4.5,True,True
+equip_006,Drip Irrigation System - 1 Hectare Kit,equipment,irrigation_equipment,Jain Irrigation,45000,kit,200,7,4.6,False,True
+equip_007,Diesel Sprayer Pump - 1600 Watt,equipment,sprayers,Agrox,28000,unit,80,5,4.4,False,False
+equip_008,Manual Operated Crop Cutter - Sickle Type,equipment,hand_tools,Basic Tools,450,unit,1000,3,4.2,False,False
+equip_009,Seed Drill Machine - 9 Row Tractor Mounted,equipment,sowing_equipment,AgroDrill,65000,unit,90,6,4.5,True,True
+equip_010,Cultivator (Hoe) - 5 Tine Tractor Mounted,equipment,farm_implements,Standard Agricultural,18000,unit,200,4,4.3,False,False
+prod_001,Tomato (Hybrid) - Fresh Market Quality,produce,vegetables,Farmer Direct,35,kg,5000,5,4.7,True,True
+prod_002,Onion - Red/Pink Variety,produce,vegetables,Farmer Direct,25,kg,8000,3,4.8,True,True
+prod_003,Potato (White) - Fresh Harvest,produce,vegetables,Farmer Direct,20,kg,12000,4,4.7,True,True
+prod_004,Bell Pepper (Capsicum) - Hybrid,produce,vegetables,Farmer Direct,60,kg,2000,6,4.6,False,True
+prod_005,Brinjal (Eggplant) - Long Variety,produce,vegetables,Farmer Direct,40,kg,1500,5,4.5,False,False
+prod_006,Cucumber (Hybrid) - Fresh,produce,vegetables,Farmer Direct,32,kg,2500,4,4.5,False,True
+prod_007,Okra (Ladies Finger) - Fresh Green,produce,vegetables,Farmer Direct,45,kg,1200,7,4.4,False,False
+prod_008,Spinach (Palak) - Fresh Leaves,produce,leafy_vegetables,Farmer Direct,28,kg,800,8,4.6,True,True
+prod_009,Carrot (Orange) - Fresh Premium,produce,root_vegetables,Farmer Direct,30,kg,3500,5,4.5,True,False
+prod_010,Green Peas (Matar) - Fresh Pods,produce,legume_vegetables,Farmer Direct,50,kg,1000,6,4.6,False,True

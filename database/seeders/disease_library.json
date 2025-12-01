@@ -1,0 +1,286 @@
+[
+  {
+    "disease_key": "Tomato_Healthy",
+    "disease_name": "Healthy Tomato Plant",
+    "scientific_name": "Solanum lycopersicum",
+    "description": "A healthy tomato plant showing no signs of disease or stress. Leaves are green, stems are strong, and fruits develop normally.",
+    "symptoms": [
+      "No visible symptoms",
+      "Normal growth",
+      "Healthy green leaves",
+      "Strong stems",
+      "Normal fruit development"
+    ],
+    "causes": ["No disease present"],
+    "pathogen_type": "None",
+    "crop_type": "Tomato",
+    "severity_levels": {
+      "low": {
+        "description": "Plant is completely healthy",
+        "treatment": ["No treatment needed", "Continue good farming practices"]
+      },
+      "medium": {
+        "description": "Plant is completely healthy",
+        "treatment": ["No treatment needed", "Continue good farming practices"]
+      },
+      "high": {
+        "description": "Plant is completely healthy",
+        "treatment": ["No treatment needed", "Continue good farming practices"]
+      }
+    },
+    "treatment_advice": {
+      "organic": ["No treatment needed", "Continue good farming practices"],
+      "chemical": ["No treatment needed"],
+      "biological": ["No treatment needed"]
+    },
+    "product_recommendations": [],
+    "prevention_tips": [
+      "Maintain proper irrigation",
+      "Ensure good soil nutrition",
+      "Regular monitoring",
+      "Practice crop rotation",
+      "Use disease-resistant varieties"
+    ],
+    "environmental_factors": {
+      "optimal_temp": "20-25°C",
+      "humidity": "40-70%",
+      "soil_ph": "6.0-7.0",
+      "rainfall": "Moderate rainfall preferred"
+    },
+    "monitoring_schedule": {
+      "frequency": "Weekly",
+      "indicators": ["Leaf color", "Stem strength", "Fruit development", "Overall plant vigor"],
+      "action_threshold": "No action needed for healthy plants"
+    },
+    "economic_impact": {
+      "yield_loss_percentage": "0%",
+      "cost_of_treatment": "₹0",
+      "prevention_cost": "₹200-500 per hectare"
+    },
+    "source_links": [
+      "https://extension.umn.edu/vegetables/growing-tomatoes",
+      "https://www.almanac.com/plant/tomatoes"
+    ],
+    "verified_by": "Agricultural Extension Services",
+    "region_specific": ["India", "USA", "Europe", "Mediterranean"]
+  },
+  {
+    "disease_key": "Tomato_Early_Blight",
+    "disease_name": "Early Blight",
+    "scientific_name": "Alternaria solani",
+    "description": "A fungal disease that affects tomato plants, causing dark spots on leaves and stems. It can significantly reduce yield if not treated.",
+    "symptoms": [
+      "Dark brown spots on leaves with concentric rings",
+      "Yellowing of leaf tissue around spots",
+      "Defoliation starting from lower leaves",
+      "Dark lesions on stems",
+      "Reduced fruit quality"
+    ],
+    "causes": [
+      "Fungal pathogen Alternaria solani",
+      "High humidity and warm temperatures",
+      "Poor air circulation",
+      "Overhead irrigation",
+      "Infected plant debris"
+    ],
+    "pathogen_type": "Fungal",
+    "crop_type": "Tomato",
+    "severity_levels": {
+      "low": {
+        "description": "Few spots on lower leaves only",
+        "treatment": ["Remove affected leaves", "Improve air circulation"]
+      },
+      "medium": {
+        "description": "Spots spreading to middle leaves, some defoliation",
+        "treatment": ["Apply copper-based fungicide", "Remove affected plant parts"]
+      },
+      "high": {
+        "description": "Severe defoliation, spots on fruits, significant yield loss",
+        "treatment": ["Systemic fungicide application", "Remove severely affected plants"]
+      }
+    },
+    "treatment_advice": {
+      "organic": [
+        "1. Remove and destroy infected leaves immediately",
+        "2. Apply neem oil spray (5ml neem oil + 2ml soap in 1L water)",
+        "3. Use copper hydroxide spray as per label instructions",
+        "4. Improve air circulation by proper spacing",
+        "5. Apply compost tea to strengthen plant immunity"
+      ],
+      "chemical": [
+        "1. Apply copper-based fungicide (e.g., Copper Hydroxide) every 7-10 days",
+        "2. Use systemic fungicides like Azoxystrobin for severe cases",
+        "3. Apply fungicide in early morning or evening",
+        "4. Alternate between different chemical classes to prevent resistance"
+      ],
+      "biological": [
+        "1. Apply Trichoderma-based bio-fungicide",
+        "2. Use Bacillus subtilis products",
+        "3. Apply beneficial microbes to soil"
+      ]
+    },
+    "product_recommendations": [
+      {
+        "name": "Copper Hydroxide 77% WP",
+        "type": "Fungicide",
+        "active_ingredient": "Copper Hydroxide",
+        "application_rate": "2-3g per liter",
+        "safety_precautions": ["Wear protective clothing", "Avoid spraying in windy conditions"],
+        "cost_estimate": "₹120-150 per hectare"
+      },
+      {
+        "name": "Azoxystrobin 23% SC",
+        "type": "Systemic Fungicide",
+        "active_ingredient": "Azoxystrobin",
+        "application_rate": "1-2ml per liter",
+        "safety_precautions": ["Wear protective gear", "Do not apply during flowering"],
+        "cost_estimate": "₹300-400 per hectare"
+      },
+      {
+        "name": "Neem Oil (Azadirachtin 0.03%)",
+        "type": "Organic Fungicide",
+        "active_ingredient": "Azadirachtin",
+        "application_rate": "5ml per liter",
+        "safety_precautions": ["Safe for beneficial insects when used as directed"],
+        "cost_estimate": "₹80-120 per hectare"
+      }
+    ],
+    "prevention_tips": [
+      "Practice crop rotation (avoid planting tomatoes in same area for 2-3 years)",
+      "Use disease-resistant varieties",
+      "Ensure proper plant spacing for air circulation",
+      "Avoid overhead irrigation",
+      "Remove and destroy infected plant debris",
+      "Apply mulch to prevent soil splash",
+      "Monitor plants regularly, especially during humid conditions"
+    ],
+    "environmental_factors": {
+      "optimal_temp": "20-28°C",
+      "humidity": "80-90%",
+      "soil_ph": "6.0-7.0",
+      "rainfall": "High humidity and frequent rain favor disease development"
+    },
+    "monitoring_schedule": {
+      "frequency": "Weekly",
+      "indicators": ["New leaf spots", "Defoliation progress", "Stem lesions"],
+      "action_threshold": "Treat when first spots appear on lower leaves"
+    },
+    "economic_impact": {
+      "yield_loss_percentage": "20-50%",
+      "cost_of_treatment": "₹500-1500 per hectare",
+      "prevention_cost": "₹200-500 per hectare"
+    },
+    "source_links": [
+      "https://www.apsnet.org/edcenter/disandpath/fungalasco/pdlessons/Pages/TomatoEarlyBlight.aspx",
+      "https://extension.umn.edu/diseases/early-blight-tomato"
+    ],
+    "verified_by": "Plant Pathology Department",
+    "region_specific": ["India", "USA", "Europe", "Mediterranean", "Tropical regions"]
+  },
+  {
+    "disease_key": "Tomato_Late_Blight",
+    "disease_name": "Late Blight",
+    "scientific_name": "Phytophthora infestans",
+    "description": "A devastating fungal disease that can destroy entire tomato crops. Characterized by water-soaked lesions that turn brown and cause rapid plant death.",
+    "symptoms": [
+      "Water-soaked lesions on leaves",
+      "White fungal growth on leaf undersides in humid conditions",
+      "Rapid browning and death of plant tissue",
+      "Dark lesions on stems and fruits",
+      "Rotten fruits with foul odor"
+    ],
+    "causes": [
+      "Oomycete pathogen Phytophthora infestans",
+      "Cool, wet weather (15-25°C)",
+      "High humidity and frequent rain",
+      "Poor drainage",
+      "Infected seed or transplants"
+    ],
+    "pathogen_type": "Fungal",
+    "crop_type": "Tomato",
+    "severity_levels": {
+      "low": {
+        "description": "Isolated lesions on few leaves",
+        "treatment": ["Remove affected leaves", "Apply preventive fungicide"]
+      },
+      "medium": {
+        "description": "Multiple lesions, some stem infection",
+        "treatment": ["Systemic fungicide application", "Remove affected plants"]
+      },
+      "high": {
+        "description": "Rapid spread, plant death, fruit rot",
+        "treatment": ["Emergency fungicide program", "Remove entire affected areas"]
+      }
+    },
+    "treatment_advice": {
+      "organic": [
+        "1. Remove and destroy all infected plant material immediately",
+        "2. Apply copper-based fungicides preventively",
+        "3. Improve drainage and air circulation",
+        "4. Use resistant varieties",
+        "5. Apply potassium bicarbonate spray"
+      ],
+      "chemical": [
+        "1. Apply systemic fungicides like Mancozeb or Chlorothalonil immediately",
+        "2. Use protectant fungicides preventively",
+        "3. Apply every 5-7 days during wet weather",
+        "4. Combine with contact fungicides for better control"
+      ],
+      "biological": [
+        "1. Apply Trichoderma harzianum",
+        "2. Use Pseudomonas fluorescens",
+        "3. Apply mycorrhizal fungi to improve plant resistance"
+      ]
+    },
+    "product_recommendations": [
+      {
+        "name": "Mancozeb 75% WP",
+        "type": "Contact Fungicide",
+        "active_ingredient": "Mancozeb",
+        "application_rate": "2-3g per liter",
+        "safety_precautions": ["Wear protective clothing", "Avoid inhalation"],
+        "cost_estimate": "₹150-200 per hectare"
+      },
+      {
+        "name": "Chlorothalonil 75% WP",
+        "type": "Contact Fungicide",
+        "active_ingredient": "Chlorothalonil",
+        "application_rate": "2g per liter",
+        "safety_precautions": ["Do not apply during hot weather", "Wear protective gear"],
+        "cost_estimate": "₹180-250 per hectare"
+      }
+    ],
+    "prevention_tips": [
+      "Use certified disease-free seeds",
+      "Plant resistant varieties",
+      "Avoid overhead irrigation",
+      "Ensure good drainage",
+      "Space plants properly for air circulation",
+      "Apply preventive fungicide sprays",
+      "Monitor weather forecasts and spray before rain",
+      "Practice crop rotation"
+    ],
+    "environmental_factors": {
+      "optimal_temp": "15-25°C",
+      "humidity": "90-100%",
+      "soil_ph": "6.0-7.0",
+      "rainfall": "Frequent rain and high humidity promote disease"
+    },
+    "monitoring_schedule": {
+      "frequency": "Daily during wet weather",
+      "indicators": ["Water-soaked spots", "White fungal growth", "Rapid tissue death"],
+      "action_threshold": "Treat immediately when first symptoms appear"
+    },
+    "economic_impact": {
+      "yield_loss_percentage": "50-100%",
+      "cost_of_treatment": "₹1000-3000 per hectare",
+      "prevention_cost": "₹500-1000 per hectare"
+    },
+    "source_links": [
+      "https://www.apsnet.org/edcenter/disandpath/oomycete/pdlessons/Pages/LateBlight.aspx",
+      "https://extension.wisc.edu/news/late-blight-of-potato-and-tomato/"
+    ],
+    "verified_by": "International Potato Center",
+    "region_specific": ["India", "USA", "Europe", "South America", "High rainfall areas"]
+  }
+]
